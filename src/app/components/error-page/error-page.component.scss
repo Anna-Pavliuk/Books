@@ -1,0 +1,46 @@
+.not-found-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    color: #333;
+    font-family: Arial, sans-serif;
+    background-color: #f7f8fa;
+    padding: 20px;
+  }
+  
+  .not-found-container h1 {
+    font-size: 5em;
+    font-weight: bold;
+    color: #ff6b6b;
+    margin: 0;
+  }
+  
+  .not-found-container h2 {
+    font-size: 2em;
+    margin-top: 10px;
+  }
+  
+  .not-found-container p {
+    font-size: 1.2em;
+    color: #666;
+    max-width: 500px;
+  }
+  
+  .not-found-container button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .not-found-container button:hover {
+    background-color: #0056b3;
+  }

@@ -1,0 +1,26 @@
+.book-table {
+  width: 100%;
+}
+
+.form-group {
+  height: 65px;
+}
+
+.mat-mdc-row .mat-mdc-cell {
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid transparent;
+  cursor: pointer;
+}
+
+.mat-mdc-row:hover .mat-mdc-cell {
+  background-color: rgb(187, 244, 244);
+}
+
+.book-row-is-clicked {
+  font-weight: bold;
+  background-color: rgb(56, 244, 244);
+}
+
+.search-width {
+  width: 20%;
+}

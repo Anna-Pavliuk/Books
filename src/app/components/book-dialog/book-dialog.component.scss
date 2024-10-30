@@ -1,0 +1,44 @@
+/* Стиль для контейнера форми */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 20px;
+    min-width: 300px;
+  }
+  
+  /* Поле вводу */
+  mat-form-field {
+    width: 100%;
+  }
+  
+  /* Стилі для кнопок у нижній частині діалогового вікна */
+  mat-dialog-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-top: 20px;
+  }
+  
+  /* Кнопка "Скасувати" */
+  button[mat-button] {
+    color: #757575; /* Сірий колір для кнопки "Скасувати" */
+  }
+  
+  /* Кнопка "Зберегти" */
+  button[mat-button][color="primary"] {
+    color: #ffffff;
+    background-color: #1976d2;
+  }
+  
+  button[mat-button][color="primary"]:hover {
+    background-color: #1565c0;
+  }
+  
+  /* Заголовок */
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333333;
+    text-align: center;
+  }
